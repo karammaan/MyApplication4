@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/katherine"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rectangle"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NATASHA"
+            android:textColor="#fff"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KORGEEVA"
+            android:textColor="#fff"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23 years,Lisbon,Portugal"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I'm a Digital Marketing Manager working in"
+
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lisbon. I like to go out for drinks and fun,cinema,"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:textStyle="italic"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="travel and beach:)"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"/>
+
+
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/katherine"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle"
+
+
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>
